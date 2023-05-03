@@ -53,11 +53,11 @@ if is_user_root; then
     # Utilerías básicas
     apt install -y neofetch mc nmon htop glances
     # Dependencias de Flutter
-    apt install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
+    apt install -y clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
     # Speedtest CLI
     wget https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh
     os=ubuntu dist=jammy bash script.deb.sh
-    apt install speedtest
+    apt install -y speedtest
     rm script.deb.sh
     reset
     echo '┌──────────────────────────────────────────────────────────────────────────────┐'
