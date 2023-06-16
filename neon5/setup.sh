@@ -16,7 +16,7 @@
 #   You should have received a copy of the GNU General Public License
 #   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-#   Version 0.1 - May 3, 2023
+#   Version 0.2 - June 16, 2023
 #   Author: Rodrigo Ernesto Alvarez Aguilera
 #
 #   Tested under KDE neon 5.27 using GNU bash version 5.1.16
